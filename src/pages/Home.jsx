@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <Header as="h1">ADI Inventory - High Assurance</Header>
+        <Header as="h1">ADI HOME - High Assurance</Header>
 
         {authState.isAuthenticated && !userInfo && (
           <div>Loading user information...</div>
